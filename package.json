@@ -1,22 +1,21 @@
 {
   "name": "albj-telegram-bot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ALBJ Token Bot with Daily Updates",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
     "daily": "node daily-updates.js schedule",
-    "test": "node daily-updates.js test",
-    "dev": "node bot.js"
+    "test": "node daily-updates.js test"
   },
   "keywords": ["telegram", "bot", "albj", "cryptocurrency"],
   "author": "ALBJ Team",
   "license": "MIT",
   "dependencies": {
-    "node-telegram-bot-api": "^0.66.0",
-    "node-cron": "^3.0.3"
+    "node-telegram-bot-api": "0.66.0",
+    "node-cron": "3.0.3"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   }
 }
